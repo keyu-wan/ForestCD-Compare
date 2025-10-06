@@ -1,0 +1,9 @@
+# data & weights
+datasets/
+data/
+*.tif
+*.tiff
+*.zip
+*.tar
+*.7z
+
