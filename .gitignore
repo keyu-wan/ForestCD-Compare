@@ -6,4 +6,8 @@ data/
 *.zip
 *.tar
 *.7z
+*。rar
+*.h5
+*.ckpt
+*.pth
 
