@@ -1,0 +1,38 @@
+{
+  "metrics": {
+    "accuracy": 0.8317756248447162,
+    "precision_class0": 0.9590601194380438,
+    "recall_class0": 0.8423359229726083,
+    "f1_class0": 0.8969163602824262,
+    "iou_class0": 0.8130991413416908,
+    "precision_class1": 0.42179256703196766,
+    "recall_class1": 0.761826210203179,
+    "f1_class1": 0.5429664331355837,
+    "iou_class1": 0.37265197280531087,
+    "miou": 0.5928755570735008,
+    "tp1": 1853319,
+    "fp1": 2540592,
+    "fn1": 579413,
+    "tn1": 13573364,
+    "total_pixels": 18546688
+  },
+  "val_loss_best": 1.140520453453064,
+  "trial_number": 1,
+  "params": {
+    "act": "gelu",
+    "preact": true,
+    "up_mode": "nearest",
+    "se_ratio": 8,
+    "depth": 4,
+    "stem_filters": 64,
+    "dropout_rate": 0.35000000000000003,
+    "class_weight_0": 0.40055750587160444,
+    "class_weight_1": 2.474530640032882,
+    "gamma": 1.041168988591605,
+    "lambda_focal": 1.4699098521619942,
+    "lambda_dice": 1.5821754330405482,
+    "lr": 2.2948683681130543e-05
+  },
+  "init_weights_used": true,
+  "init_weights_path": "/mnt/project-data/kwan/AI_Forestry/model/Change_Detection_FCNs-main/resUnet_new/optuna_runs_resu_old/optuna_t0020/best_resunet.h5"
+}
